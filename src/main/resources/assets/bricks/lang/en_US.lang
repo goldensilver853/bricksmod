@@ -1,0 +1,17 @@
+tile.Black Bricks.name=Black Bricks
+tile.Blue Bricks.name=Blue Bricks
+tile.Brown Bricks.name=Brown Bricks
+tile.Cyan Bricks.name=Cyan Bricks
+tile.Gray Bricks.name=Gray Bricks
+tile.Green Bricks.name=Green Bricks
+tile.Lblue Bricks.name=Light Blue Bricks
+tile.Lgray Bricks.name=Light Gray Bricks
+tile.Lime Bricks.name=Lime Bricks
+tile.Magenta Bricks.name=Magenta Bricks
+tile.Orange Bricks.name=Orange Bricks
+tile.Pink Bricks.name=Pink Bricks
+tile.Purple Bricks.name=Purple Bricks
+tile.Red Bricks.name=Red Bricks
+tile.White Bricks.name=White Bricks
+tile.Yellow Bricks.name=Yellow Bricks
+itemGroup.BricksTab=Bricks

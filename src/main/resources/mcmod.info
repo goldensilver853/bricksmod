@@ -1,0 +1,16 @@
+[
+{
+  "modid": "Bricks",
+  "name": "Bricks",
+  "description": "I saw a request for this on the Minecraft Forums, so I made it.",
+  "version": "1.0.0",
+  "mcversion": "1.7.x",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["goldensilver853"],
+  "credits": "goldensilver853",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
