@@ -22,7 +22,7 @@ import com.bricks.blocks.Yellow;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 
-public class BrickReg {
+public class BrickReg{
 
 	public static Block Black;
 	public static Block Blue;
