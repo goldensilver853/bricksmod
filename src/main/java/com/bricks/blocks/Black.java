@@ -10,8 +10,8 @@ public class Black extends Block {
 	public Black (Material rock) {
 		super(rock);
 		this.setStepSound(soundTypeStone);
-		this.setHardness(1.5f);
-		this.setResistance(1.5f);
+		this.setHardness(3.0f);
+		this.setResistance(5.5f);
 		this.setBlockName("Black Bricks");
 		this.setBlockTextureName("bricks:black");
 		this.setCreativeTab(Bricks.bricksTab);

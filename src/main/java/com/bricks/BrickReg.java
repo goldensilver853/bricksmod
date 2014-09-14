@@ -2,13 +2,18 @@ package com.bricks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.item.Item;
 
 import com.bricks.blocks.Black;
 import com.bricks.blocks.Blue;
 import com.bricks.blocks.Brown;
 import com.bricks.blocks.Cyan;
+import com.bricks.blocks.Dirt;
 import com.bricks.blocks.Gray;
 import com.bricks.blocks.Green;
+import com.bricks.blocks.Ice;
+import com.bricks.blocks.Iron;
+import com.bricks.blocks.Lapis;
 import com.bricks.blocks.Lblue;
 import com.bricks.blocks.Lgray;
 import com.bricks.blocks.Lime;
@@ -19,10 +24,11 @@ import com.bricks.blocks.Purple;
 import com.bricks.blocks.Red;
 import com.bricks.blocks.White;
 import com.bricks.blocks.Yellow;
+import com.bricks.items.Mortar;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 
-public class BrickReg {
+public class BrickReg{
 
 	public static Block Black;
 	public static Block Blue;
@@ -40,6 +46,12 @@ public class BrickReg {
 	public static Block Red;
 	public static Block White;
 	public static Block Yellow;
+	public static Block Ice;
+	public static Block Iron;
+	public static Block Lapis;
+	public static Block Dirt;
+	
+	public static Item Mortar;
 	
 	public static void registerBlocks(){
 		
@@ -59,6 +71,12 @@ public class BrickReg {
 		Red = new Red(Material.rock);
 		White = new White(Material.rock);
 		Yellow = new Yellow(Material.rock);
+		Ice = new Ice(Material.ice);
+		Iron = new Iron(Material.iron);
+		Lapis = new Lapis(Material.rock);
+		Dirt = new Dirt(Material.ground);
+		
+		Mortar = new Mortar();
 		
 		GameRegistry.registerBlock(Black, "Black Bricks");		
 		GameRegistry.registerBlock(Blue, "Blue Bricks");
@@ -76,6 +94,12 @@ public class BrickReg {
 		GameRegistry.registerBlock(Red, "Red Bricks");
 		GameRegistry.registerBlock(White, "White Bricks");
 		GameRegistry.registerBlock(Yellow, "Yellow Bricks");
+		GameRegistry.registerBlock(Ice, "Ice Bricks");
+		GameRegistry.registerBlock(Iron, "Iron Bricks");
+		GameRegistry.registerBlock(Lapis, "Lapis Bricks");
+		GameRegistry.registerBlock(Dirt, "Dirt Bricks");
+		
+		GameRegistry.registerItem(Mortar, "Mortar");
 		
 	}
 	

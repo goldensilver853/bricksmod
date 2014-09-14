@@ -2,77 +2,76 @@ package com.bricks;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 
 public class BrickRecipes {
 
 	public static void registerRecipes(){
 		
-        GameRegistry.addRecipe(new ShapedOreRecipe(BrickReg.Black, true, new Object[]{
-                "FBX", "CXX", "XXX", Character.valueOf('B'), ("dyeBlack"), Character.valueOf('F'), (Blocks.brick_block)
-                }));
+        GameRegistry.addShapelessRecipe(new ItemStack(BrickReg.White, 1),
+        		new ItemStack(Blocks.brick_block), new ItemStack(Items.dye, 1, 0));
         
-        GameRegistry.addRecipe(new ShapedOreRecipe(BrickReg.Blue, true, new Object[]{
-                "FBX", "CXX", "XXX", Character.valueOf('B'), ("dyeBlue"), Character.valueOf('F'), (Blocks.brick_block)
-                }));
+        GameRegistry.addShapelessRecipe(new ItemStack(BrickReg.Blue, 1),
+        		new ItemStack(Blocks.brick_block), new ItemStack(Items.dye, 1, 4));
         
-        GameRegistry.addRecipe(new ShapedOreRecipe(BrickReg.Brown, true, new Object[]{
-                "FBX", "CXX", "XXX", Character.valueOf('B'), ("dyeBrown"), Character.valueOf('F'), (Blocks.brick_block)
-                }));
+        GameRegistry.addShapelessRecipe(new ItemStack(BrickReg.Brown, 1),
+        		new ItemStack(Blocks.brick_block), new ItemStack(Items.dye, 1, 3));
         
-        GameRegistry.addRecipe(new ShapedOreRecipe(BrickReg.Cyan, true, new Object[]{
-                "FBX", "CXX", "XXX", Character.valueOf('B'), ("dyeCyan"), Character.valueOf('F'), (Blocks.brick_block)
-                }));
+        GameRegistry.addShapelessRecipe(new ItemStack(BrickReg.Cyan, 1),
+        		new ItemStack(Blocks.brick_block), new ItemStack(Items.dye, 1, 6));
         
-        GameRegistry.addRecipe(new ShapedOreRecipe(BrickReg.Gray, true, new Object[]{
-                "FBX", "CXX", "XXX", Character.valueOf('B'), ("dyeGray"), Character.valueOf('F'), (Blocks.brick_block)
-                }));
+        GameRegistry.addShapelessRecipe(new ItemStack(BrickReg.Gray, 1),
+        		new ItemStack(Blocks.brick_block), new ItemStack(Items.dye, 1, 8));
         
-        GameRegistry.addRecipe(new ShapedOreRecipe(BrickReg.Green, true, new Object[]{
-                "FBX", "CXX", "XXX", Character.valueOf('B'), ("dyeGreen"), Character.valueOf('F'), (Blocks.brick_block)
-                }));
+        GameRegistry.addShapelessRecipe(new ItemStack(BrickReg.Green, 1),
+        		new ItemStack(Blocks.brick_block), new ItemStack(Items.dye, 1, 2));
         
-        GameRegistry.addRecipe(new ShapedOreRecipe(BrickReg.Lblue, true, new Object[]{
-                "FBX", "CXX", "XXX", Character.valueOf('B'), ("dyeLightBlue"), Character.valueOf('F'), (Blocks.brick_block)
-                }));
+        GameRegistry.addShapelessRecipe(new ItemStack(BrickReg.Lblue, 1),
+        		new ItemStack(Blocks.brick_block), new ItemStack(Items.dye, 1, 12));
         
-        GameRegistry.addRecipe(new ShapedOreRecipe(BrickReg.Lgray, true, new Object[]{
-                "FBX", "CXX", "XXX", Character.valueOf('B'), ("dyeLightGray"), Character.valueOf('F'), (Blocks.brick_block)
-                }));
+        GameRegistry.addShapelessRecipe(new ItemStack(BrickReg.Lgray, 1),
+        		new ItemStack(Blocks.brick_block), new ItemStack(Items.dye, 1, 7));
         
-        GameRegistry.addRecipe(new ShapedOreRecipe(BrickReg.Lime, true, new Object[]{
-                "FBX", "CXX", "XXX", Character.valueOf('B'), ("dyeLime"), Character.valueOf('F'), (Blocks.brick_block)
-                }));
+        GameRegistry.addShapelessRecipe(new ItemStack(BrickReg.Lime, 1),
+        		new ItemStack(Blocks.brick_block), new ItemStack(Items.dye, 1, 10));
         
-        GameRegistry.addRecipe(new ShapedOreRecipe(BrickReg.Magenta, true, new Object[]{
-                "FBX", "CXX", "XXX", Character.valueOf('B'), ("dyeMagenta"), Character.valueOf('F'), (Blocks.brick_block)
-                }));
+        GameRegistry.addShapelessRecipe(new ItemStack(BrickReg.Magenta, 1),
+        		new ItemStack(Blocks.brick_block), new ItemStack(Items.dye, 1, 13));
         
-        GameRegistry.addRecipe(new ShapedOreRecipe(BrickReg.Orange, true, new Object[]{
-                "FBX", "CXX", "XXX", Character.valueOf('B'), ("dyeOrange"), Character.valueOf('F'), (Blocks.brick_block)
-                }));
+        GameRegistry.addShapelessRecipe(new ItemStack(BrickReg.Orange, 1),
+        		new ItemStack(Blocks.brick_block), new ItemStack(Items.dye, 1, 14));
         
-        GameRegistry.addRecipe(new ShapedOreRecipe(BrickReg.Pink, true, new Object[]{
-                "FBX", "CXX", "XXX", Character.valueOf('B'), ("dyePink"), Character.valueOf('F'), (Blocks.brick_block)
-                }));
+        GameRegistry.addShapelessRecipe(new ItemStack(BrickReg.Pink, 1),
+        		new ItemStack(Blocks.brick_block), new ItemStack(Items.dye, 1, 9));
         
-        GameRegistry.addRecipe(new ShapedOreRecipe(BrickReg.Purple, true, new Object[]{
-                "FBX", "CXX", "XXX", Character.valueOf('B'), ("dyePurple"), Character.valueOf('F'), (Blocks.brick_block)
-                }));
+        GameRegistry.addShapelessRecipe(new ItemStack(BrickReg.Purple, 1),
+        		new ItemStack(Blocks.brick_block), new ItemStack(Items.dye, 1, 5));
         
-        GameRegistry.addRecipe(new ShapedOreRecipe(BrickReg.Red, true, new Object[]{
-                "FBX", "CXX", "XXX", Character.valueOf('B'), ("dyeRed"), Character.valueOf('F'), (Blocks.brick_block)
-                }));
+        GameRegistry.addShapelessRecipe(new ItemStack(BrickReg.Red, 1),
+        		new ItemStack(Blocks.brick_block), new ItemStack(Items.dye, 1, 1));
         
-        GameRegistry.addRecipe(new ShapedOreRecipe(BrickReg.White, true, new Object[]{
-                "FBX", "CXX", "XXX", Character.valueOf('B'), ("dyeWhite"), Character.valueOf('F'), (Blocks.brick_block)
-                }));
+        GameRegistry.addShapelessRecipe(new ItemStack(BrickReg.White, 1),
+        		new ItemStack(Blocks.brick_block), new ItemStack(Items.dye, 1, 15));
         
-        GameRegistry.addRecipe(new ShapedOreRecipe(BrickReg.Yellow, true, new Object[]{
-                "FBX", "CXX", "XXX", Character.valueOf('B'), ("dyeYellow"), Character.valueOf('F'), (Blocks.brick_block)
-                }));
+        GameRegistry.addShapelessRecipe(new ItemStack(BrickReg.Yellow, 1),
+        		new ItemStack(Blocks.brick_block), new ItemStack(Items.dye, 1, 11));
         
+        GameRegistry.addShapelessRecipe(new ItemStack(BrickReg.Mortar, 16),
+        		new ItemStack(Blocks.gravel), new ItemStack(Items.water_bucket));
 		
+        GameRegistry.addShapelessRecipe(new ItemStack(BrickReg.Iron, 1),
+        		new ItemStack(Blocks.iron_block), new ItemStack(BrickReg.Mortar));
+        
+        GameRegistry.addShapelessRecipe(new ItemStack(BrickReg.Lapis, 1),
+        		new ItemStack(Blocks.lapis_block), new ItemStack(BrickReg.Mortar));
+        
+        GameRegistry.addShapelessRecipe(new ItemStack(BrickReg.Dirt, 1),
+        		new ItemStack(Blocks.dirt), new ItemStack(BrickReg.Mortar));
+        
+        GameRegistry.addShapelessRecipe(new ItemStack(BrickReg.Ice, 1),
+        		new ItemStack(Blocks.ice), new ItemStack(BrickReg.Mortar));
 	}
 	
 }

@@ -26,7 +26,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 public class Bricks {
 	
 	public static final String modid = "Bricks";
-	public static final String version = "1.0.0";
+	public static final String version = "1.0.1";
 	public static final Logger logger = LogManager.getLogger(modid);
 	
     public Bricks()
