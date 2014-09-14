@@ -68,7 +68,7 @@ public class Bricks {
 	@EventHandler
 	public void Init(FMLInitializationEvent event){
 		
-    }
+        }
 	
 	@EventHandler
 	public void PostInit(FMLPostInitializationEvent postEvent){
